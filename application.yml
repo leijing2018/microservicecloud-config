@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    actiove: 
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-jl-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-jl-test    
